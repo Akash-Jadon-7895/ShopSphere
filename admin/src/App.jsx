@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export const backendUrl = (import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000').replace(/\/$/, '')
 export const currency = '$'
+// main file for admin panel, it will have the routes for different pages of admin panel and also it will check if the token is present in the local storage or not, if not then it will redirect to login page
 
 const App = () => {
 
