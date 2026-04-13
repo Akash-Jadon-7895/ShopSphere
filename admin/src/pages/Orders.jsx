@@ -7,6 +7,7 @@ import { toast } from 'react-toastify'
 import { assets } from '../assets/assets'
 
 const Orders = ({ token }) => {
+  // page for listing all the orders in the database, it will fetch the orders from the backend and display them in a table format with image, name, category and price, it will also have a dropdown to change the status of the order
 
   const [orders, setOrders] = useState([])
 
