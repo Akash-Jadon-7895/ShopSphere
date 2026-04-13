@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { currency } from '../App'
 import { products } from '../assets/assets'
+// page for listing all the products in the database, it will fetch the products from the backend and display them in a table format with image, name, category and price
 
 const List = () => {
 
