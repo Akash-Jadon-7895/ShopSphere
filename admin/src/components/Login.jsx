@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import { backendUrl } from '../App'
 import { toast } from 'react-toastify'
 
+// login created for admin panel, it will return token if login is successful and set the token in the state of App.jsx
+
 const Login = ({setToken}) => {
 
     const [email,setEmail] = useState('')
