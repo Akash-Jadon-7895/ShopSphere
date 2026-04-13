@@ -2,6 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { assets } from '../assets/assets'
 
+// sidebar for admin panel, it will have links to different pages of admin panel like orders, products, users etc.
+
 const Sidebar = () => {
   return (
     <div className='w-[18%] min-h-screen border-r-2'>

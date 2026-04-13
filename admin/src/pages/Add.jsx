@@ -3,6 +3,7 @@ import {assets} from '../assets/assets'
 import axios from 'axios'
 import { backendUrl } from '../App'
 import { toast } from 'react-toastify'
+// page for adding new product in the database, it will have a form with fields like name, description, price, category, subcategory, bestseller and sizes, when the form is submitted it will send a post request to the backend to add the product in the database
 
 const Add = ({token}) => {
 
