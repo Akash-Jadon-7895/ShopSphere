@@ -1,6 +1,8 @@
 import React from 'react'
 import {assets} from '../assets/assets'
 
+// navbar for admin panel, it will have the logo and logout button, when logout button is clicked it will set the token to empty string in the state of App.jsx
+
 const Navbar = ({setToken}) => {
   return (
     <div className='flex items-center py-2 px-[4%] justify-between'>
